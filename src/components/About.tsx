@@ -38,7 +38,7 @@ const About = () => {
 
             </svg>
             <img
-              src="\assets\chibi_avatar_transparent.png"
+              src="https://github.com/VSRINITHI/Portfolio/blob/main/public/assets/chibi_avatar_transparent.png"
               alt="Developer"
               className="absolute inset-0 z-10 w-full h-full object-contain rounded-full"
             />
