@@ -33,16 +33,14 @@ const About = () => {
               className="absolute inset-0 w-full h-full"
             >
               <g transform="translate(300,400)">
-  
-</g>
-
+                {/* You can add your blob shape here if needed */}
+              </g>
             </svg>
             <img
               src={`${import.meta.env.BASE_URL}assets/chibi_avatar_transparent.png`}
               alt="Developer"
               className="absolute inset-0 z-10 w-full h-full object-contain rounded-full"
             />
-
           </motion.div>
         </motion.div>
 
@@ -68,7 +66,7 @@ const About = () => {
             </div>
           </motion.h2>
 
-          {/* Gradient Line - always under heading */}
+          {/* Gradient Line */}
           <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-purple-500 my-4 mx-auto md:mx-0 rounded-full" />
 
           {/* Paragraph */}
