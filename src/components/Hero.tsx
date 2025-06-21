@@ -108,12 +108,12 @@ export default function Hero() {
           transition={{ duration: 0.8 }}
           className="md:w-1/2 flex justify-center"
         >
-          <img
-            src="/assets/dev.png"
-            alt="Developer"
-            className="w-full max-w-[300px] sm:max-w-[350px] md:max-w-md"
-            loading="lazy"
-          />
+         <img
+          src={`${import.meta.env.BASE_URL}assets/dev.png`}
+          alt="Developer"
+          className="w-full max-w-[300px] sm:max-w-[350px] md:max-w-md"
+          loading="lazy"
+        />
         </motion.div>
       </div>
 
